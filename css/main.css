@@ -53,7 +53,7 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  height: 60px;
+  height: 102px;
   text-align: center;
 }
 
@@ -64,13 +64,10 @@ header {
 
 .titleName {
  float: left;
- font-family:'Poiret One', sans-serif;
- margin: 15px 0;
- font-size: 2em;
- font-weight: normal;
- line-height: 0.8em;
+ margin: 0;
  display: block;
- padding-left: 20px;
+ padding-left: 10px;
+ max-width: 200px;
 }
 
 /********************************************
@@ -231,19 +228,11 @@ COLOURS
 
 /*header */
 header {
-  background: #935347;/*#252839;*/
-  background: -webkit-linear-gradient(left top, #374d5c, #040404); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#935347, #935347); /* For Opera 11.1 to 12.0 */
+  background: #19627f;
   border-bottom: solid 3px;
-  border-color: #f26d42;
+  border-color: #000000;
 }
 
-/* logo text */
-.titleName {
-  color: #ffffff;
-  /*text-shadow: 11px 5px 5px #121b21;*/
-  font-weight: bold;
-}
 
 /* links *
 

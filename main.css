@@ -9,11 +9,17 @@
     fill: rgba(255, 255, 255, 0.84)
 }
 
+/*
 #section0 {
-    background-image: url(img/moj-beach.jpg);
-}
+    background-image: url(img/moj-beach-mob.jpg);
+     background-size: contain;
+}*/
 
 #fp-nav ul li a span {
     background: #fff;
+}
 
+p {
+    color: #fff;
+    font-size: 0.5em;
 }

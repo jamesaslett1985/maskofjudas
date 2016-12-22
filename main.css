@@ -1,4 +1,19 @@
-.section{
+.section {
     font-size: 4em;
     text-align: center;
+}
+
+.moj-logo {
+    width: 80%;
+    max-width: 600px;
+    fill: rgba(255, 255, 255, 0.84)
+}
+
+#section0 {
+    background-image: url(img/moj-beach.jpg);
+}
+
+#fp-nav ul li a span {
+    background: #fff;
+
 }

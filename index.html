@@ -1,9 +1,10 @@
 <DOCTYPE html>
     <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
-    <title>Mask of Judas</title>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+        <title>Mask of Judas</title>
         <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
         <link rel="stylesheet" type="text/css" href="main.css" />
         <link rel="stylesheet" type="text/css" href="responsive.css" />
@@ -13,11 +14,11 @@
         <script type="text/javascript">
             $(document).ready(function () {
                 $('#fullpage').fullpage({
-                    anchors: ['firstPage', 'secondPage', '3rdPage'],
-                    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+                    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+                    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#7E8F7C', '#7E8F7C', '#7E8F7C'],
                     navigation: true,
                     navigationPosition: 'right',
-                    navigationTooltips: ['First page', 'Second page', 'Third and last page']
+                    navigationTooltips: ['Home', 'Music', 'Gallery', 'Gigs', 'Merch', 'Contact']
                 });
             });
         </script>
@@ -170,15 +171,20 @@ l0 -2695 400 0 400 0 0 1195 0 1195 53 0 c115 -1 2115 51 2155 56 l42 5 0 299
                     </g>
                 </svg>
                 <!--End of inline SVG logo -->
-                <p>Placeholder text</p>
+                <p>Home</p>
             </div>
+            <!--MUSIC SECTION -->
+            <div class="section">Music</div>
+            <!--GALLERY SECTION -->
             <div class="section">
-                <div class="slide">Section 2 Slide 1</div>
-                <div class="slide">Section 2 Slide 2</div>
-                <div class="slide">Section 2 Slide 3</div>
+                <div class="slide">Photo Slide 1</div>
+                <div class="slide">Photo Slide 2</div>
+                <div class="slide">Photo Slide 3</div>
             </div>
-            <div class="section">Section 3</div>
-        </div>
+            <<!--GIGS SECTION -->
+                <div class="section">Gigs</div>
+                <!--MERCH SECTION -->
+                <div class="section">Merch</div>
+                <!--CONTACT SECTION -->
+                <div class="section">Contact</div>
     </body>
-
-    </html>

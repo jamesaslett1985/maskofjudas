@@ -22,3 +22,25 @@ p {
     background-image: url(img/moj-beach-mob.jpg);
     max-width: 100%;
     }
+
+#header {
+    position: fixed;
+    height: 30px;
+    display: block;
+    width: 100%;
+    background: #333;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 15px 0 0 0;
+}
+
+#button {
+    border: none;
+    color: white;
+    padding: 0px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

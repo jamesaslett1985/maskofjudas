@@ -4,7 +4,6 @@ PAGE: INDEX
 *********************************************/
     #section0 {
         background-image: url(img/moj-beach.jpg);
-        background-size: contain;
         height: auto;
     }
         }

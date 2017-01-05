@@ -5,39 +5,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
         <title>Mask of Judas</title>
-        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css"/>
-        <link rel="stylesheet" type="text/css" href="main.css"/>
-        <link rel="stylesheet" type="text/css" href="responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="responsive.css" />
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="fonts/icomoon/icomoon.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="vendors/jquery.easings.min.js"></script>
-        <script type="text/javascript" src="jquery.fullPage.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('#fullpage').fullpage({
-                    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
-                    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#7E8F7C', '#7E8F7C', '#7E8F7C'],
-                    navigation: true,
-                    navigationPosition: 'right',
-                    navigationTooltips: ['Home', 'Music', 'Gallery', 'Gigs', 'Merch', 'Contact']
-                });
-            });
-        </script>
     </head>
 
     <body>
-
-<div id="header">
+        <header>
+            <nav class="main-nav" id="header">
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="index.html#firstPage" id="button">Home</a></li>
+                    <li><a href="index.html#secondPage" id="button">Music</a></li>
+                    <li><a href="index.html#thirdPage" id="button">Gallery</a></li>
+                    <li><a href="index.html#fourthPage" id="button">Gigs</a></li>
+                    <li><a href="index.html#fifthPage" id="button">Merch</a></li>
+                    <li><a href="index.html#sixthPage" id="button">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()" class="icon-menu"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- WORKING NAV
+<nav class="main-nav" id="header">
     <a href="index.html#firstPage" id="button">Home</a>
     <a href="index.html#secondPage" id="button">Music</a>
     <a href="index.html#thirdPage" id="button">Gallery</a>
     <a href="index.html#fourthPage" id="button">Gigs</a>
     <a href="index.html#fifthPage" id="button">Merch</a>
     <a href="index.html#sixthPage" id="button">Contact</a>
-
-</div>
-
-
+</nav>
+-->
         <div id="fullpage">
             <div class="section" id="section0">
                 <!--Start of inline SVG logo -->
@@ -199,4 +202,23 @@ l0 -2695 400 0 400 0 0 1195 0 1195 53 0 c115 -1 2115 51 2155 56 l42 5 0 299
                 <div class="section">Merch</div>
                 <!--CONTACT SECTION -->
                 <div class="section">Contact</div>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <script src="vendors/jquery.easings.min.js"></script>
+                <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+                <script src="js/navscripts.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#fullpage').fullpage({
+                            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage',
+                                'sixthPage'
+                            ],
+                            sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#7E8F7C', '#7E8F7C',
+                                '#7E8F7C'
+                            ],
+                            navigation: true,
+                            navigationPosition: 'right',
+                            navigationTooltips: ['Home', 'Music', 'Gallery', 'Gigs', 'Merch', 'Contact']
+                        });
+                    });
+                </script>
     </body>

@@ -17,7 +17,7 @@
 	padding: 0px 40px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	font-size: 17px;
 }
 
@@ -51,15 +51,16 @@ li {
 ul.topnav.responsive {
 	position: absolute;
 	width: 100%;
-	z-index: 99;
+	z-index: 199;
 	margin: 0;
-	top: 68px;
-	height: 210px;
+	padding: 0;
+	top: 35px;
+	height: 222px;
 }
 
 ul.topnav.responsive li.icon {
 	position: absolute;
-	top: -64px;
+	top: -46px;
 	right: 9px;
 }
 
@@ -73,11 +74,11 @@ ul.topnav.responsive li a {
 	display: block;
 	text-align: center;
 	margin-top: 10px;
-	padding: 10px 5px;
+	padding: 11px 1px;
 }
 
 .topnav.responsive {
-	background-color: #252c32;
+	background-color: #53a74c;
 }
 
 
@@ -98,3 +99,7 @@ ul.topnav.responsive li a {
 		margin-top: 5px;
 		padding: 0;
 	}
+
+	#button {
+	display: -inline-block;
+}

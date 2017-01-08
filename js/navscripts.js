@@ -9,26 +9,17 @@ function myFunction() {
     }
 }	
 	
-//Hide icon when mobile menu open
-$(".icon").click(function(){
-	if (!$(".icon a").hasClass("open")) {
-		var a = $(this).find("a");
-		a.addClass("icon-cross");
-		a.addClass("open");
-		
-	}
-	else {
-		var a = $(this).find("a");
-		a.removeClass("icon-cross");
-		a.removeClass("open");
-	}
-});
+//Toggle between hamburger/cross icons on click
 
+var $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+  });
 
 
 //Force mobile menu to shut if left open on screen resize
 $(window).resize(function(){
-	if($(window).width() > 382) {
+	if($(window).width() > 760) {
 //Remove Responsive class
 	$("#myTopnav").removeClass(" responsive");
 //Force X icon back to hamburger
@@ -42,4 +33,12 @@ $(window).resize(function(){
 });
 
 
-
+/* WORK IN PROGRESS - trying to get cross icon to set to 40px and show correctly */
+function myFunction() {
+    var x = document.getElementsByClassName("hamburger");
+    if (x.className === "is-active") {
+        $(".hamburger-inner").addClass("LOLOLOLOL");
+    } else {
+        x.className = "topnav";
+    }
+}	

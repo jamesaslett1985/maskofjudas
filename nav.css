@@ -40,10 +40,7 @@
 								right: 10px;
 							}
 							
-							.icon a:link {
-								color: white;
-								text-decoration: none;
-							}
+						
 							
 							li {
 								list-style: none;
@@ -100,18 +97,30 @@
 								height: 2px;
 							}
 
-							.hamburger-inner:before {
+							.hamburger .hamburger-inner:before {
 								width: 10px;
 							}
 
-							.hamburger-inner {
+							.hamburger .hamburger-inner {
 								width: 20px;
 							}
 
-							.hamburger-inner:after {
+							.hamburger .hamburger-inner:after {
 								width: 30px;
 							}
-						
+
+							.hamburger.is-active .hamburger-inner:before {
+								width: 30px;
+							}
+
+							.hamburger.is-active .hamburger-inner {
+								width: 30px;
+							}
+
+							.hamburger.is-active .hamburger-inner:after {
+								width: 30px;
+							}		
+	
 							.hamburger-box {
 								height: 20px;
 							}

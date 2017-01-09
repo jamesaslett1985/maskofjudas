@@ -33,7 +33,7 @@ $(window).resize(function(){
 });
 
 
-/* WORK IN PROGRESS - trying to get cross icon to set to 40px and show correctly */
+/* WORK IN PROGRESS - trying to get cross icon to set to 40px and show correctly 
 function myFunction() {
     var x = document.getElementsByClassName("hamburger");
     if (x.className === "is-active") {
@@ -42,3 +42,4 @@ function myFunction() {
         x.className = "topnav";
     }
 }	
+*/

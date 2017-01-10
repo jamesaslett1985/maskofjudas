@@ -22,11 +22,12 @@
                     <li><a href="index.html#firstPage" id="button">HOME</a></li>
                     <li><a href="index.html#secondPage" id="button">MUSIC</a></li>
                     <li><a href="index.html#thirdPage" id="button">GALLERY</a></li>
-                    <li><a href="index.html#fourthPage" id="button">GIGS</a></li>
-                    <li><a href="index.html#fifthPage" id="button">MERCH</a></li>
-                    <li><a href="index.html#sixthPage" id="button">CONTACT</a></li>
+                    <li><a href="index.html#fourthPage" id="button">VIDEO</a></li>
+                    <li><a href="index.html#fifthPage" id="button">GIGS</a></li>
+                    <li><a href="index.html#sixthPage" id="button">MERCH</a></li>
+                    <li><a href="index.html#seventhPage" id="button">CONTACT</a></li>
                 </ul>
-                    <!--new hamburger start -->
+            
     <div class="burger">
                     <button class="hamburger hamburger--3dx"  type="button">
                         <a href="javascript:void(0);" onclick="myFunction()">
@@ -36,17 +37,7 @@
   </a>
 </button>
 </div>
-                    <!--new hamburger end -->
-
-                    <!--working hamburger
-                    
-                    <li class="icon">
-                        <a href="javascript:void(0);" onclick="myFunction()" class="icon-menu"></a>
-                    </li>
-
-                    working hamburger end-->
-                
-            </nav>
+          </nav>
         </header>
         <div id="fullpage">
             <div class="section" id="section0">
@@ -203,6 +194,12 @@ l0 -2695 400 0 400 0 0 1195 0 1195 53 0 c115 -1 2115 51 2155 56 l42 5 0 299
                 <div class="slide">Photo Slide 2</div>
                 <div class="slide">Photo Slide 3</div>
             </div>
+            <!--VIDEO SECTION -->
+            <div class="section">
+                <div class="slide">Video 1</div>
+                <div class="slide">Video 2</div>
+                <div class="slide">Video 3</div>
+            </div>
             <<!--GIGS SECTION -->
                 <div class="section">Gigs</div>
                 <!--MERCH SECTION -->
@@ -217,14 +214,14 @@ l0 -2695 400 0 400 0 0 1195 0 1195 53 0 c115 -1 2115 51 2155 56 l42 5 0 299
                     $(document).ready(function () {
                         $('#fullpage').fullpage({
                             anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage',
-                                'sixthPage'
+                                'sixthPage', 'seventhPage'
                             ],
                             sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#7E8F7C', '#7E8F7C',
-                                '#7E8F7C'
+                                '#7E8F7C', '#1BBC9B'
                             ],
                             navigation: true,
                             navigationPosition: 'right',
-                            navigationTooltips: ['Home', 'Music', 'Gallery', 'Gigs', 'Merch', 'Contact']
+                            navigationTooltips: ['Home', 'Music', 'Gallery', 'Video', 'Gigs', 'Merch', 'Contact']
                         });
                     });
                 </script>

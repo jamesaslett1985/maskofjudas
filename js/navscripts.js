@@ -23,23 +23,19 @@ $(window).resize(function(){
 //Remove Responsive class
 	$("#myTopnav").removeClass(" responsive");
 //Force X icon back to hamburger
-	var a = $(".icon a");
-	a.removeClass("icon-cross");
-	a.removeClass("open");
+	var a = $(".hamburger");
+	a.removeClass(" is-active");
 //Else leave it there	
     } else {
     console.log("bigger");
 	}
 });
 
+//Force mobile menu to shut if any option selected
+$('#myTopnav li a').on('click', function(){
+    $('#myTopnav').removeClass('responsive');
+//Force X icon back to hamburger
+    $('.hamburger').removeClass(" is-active");
+});
 
-/* WORK IN PROGRESS - trying to get cross icon to set to 40px and show correctly 
-function myFunction() {
-    var x = document.getElementsByClassName("hamburger");
-    if (x.className === "is-active") {
-        $(".hamburger-inner").addClass("LOLOLOLOL");
-    } else {
-        x.className = "topnav";
-    }
-}	
-*/
+

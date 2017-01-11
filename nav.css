@@ -129,6 +129,8 @@ ul.topnav.responsive li a {
 	position: absolute;
 	top: 6;
 	left: 8;
+	color: #fff;
+	text-decoration: none;
 }
 
 /*RESPONSIVE*/

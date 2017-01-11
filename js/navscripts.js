@@ -25,10 +25,7 @@ $(window).resize(function(){
 //Force X icon back to hamburger
 	var a = $(".hamburger");
 	a.removeClass(" is-active");
-//Else leave it there	
-    } else {
-    console.log("bigger");
-	}
+    } 
 });
 
 //Force mobile menu to shut if any option selected

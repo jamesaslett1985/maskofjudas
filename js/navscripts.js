@@ -29,7 +29,7 @@ $(window).resize(function(){
 });
 
 //Force mobile menu to shut if any option selected
-$('#myTopnav li a').on('click', function(){
+$('#myTopnav li a, .mojNavtext').on('click', function(){
     $('#myTopnav').removeClass('responsive');
 //Force X icon back to hamburger
     $('.hamburger').removeClass(" is-active");

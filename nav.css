@@ -136,6 +136,8 @@ ul.topnav.responsive li a {
   display: none !important;
 }
 
+
+/*
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
     height: 15px;
     width: 15px;
@@ -146,7 +148,7 @@ ul.topnav.responsive li a {
     height: 6px;
     width: 6px;
 }
-
+*/
 
 /*RESPONSIVE*/
 

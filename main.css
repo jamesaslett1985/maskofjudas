@@ -21,5 +21,6 @@ p {
 #section0 {
     background-image: url(img/moj-beach-mob.jpg);
     max-width: 100%;
+    background-size: cover;
     }
 

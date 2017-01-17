@@ -3,7 +3,7 @@
 	height: 42px;
 	display: block;
 	width: 100%;
-	background: #503b27;
+	background: #524a45;
 	z-index: 101;
 	text-align: center;
 	color: #f2f2f2;
@@ -74,7 +74,7 @@ ul.topnav.responsive li a {
 }
 
 .topnav.responsive {
-	background-color: #615449;
+	background-color: #5a5a5a;
 }
 
 .burger {

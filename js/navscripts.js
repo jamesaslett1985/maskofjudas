@@ -35,11 +35,13 @@ $('#myTopnav li a, .mojNavtext').on('click', function(){
     $('.hamburger').removeClass(" is-active");
 });
 
-/* Hide nav if user clicks outside of it
-
-$(".responsive").bind( "clickoutside", function(event){
-$(this).hide();
-
-});
-*/
+// Hide nav if user clicks outside of it
+$(document).on('click', function(event) {
+  if (!$(event.target).closest('.hamburger-box').length) {
+    // Hide mobile menu
+    $('#myTopnav').removeClass('responsive');
+    // Force X icon back to hamburger
+    $('.hamburger').removeClass(" is-active");
+  }
+})
 

@@ -4,9 +4,12 @@
 }
 
 .moj-logo {
-    width: 70%;
-    max-width: 600px;
-    fill: rgba(255, 255, 255, 0.84)
+    background: url(img/moj-logo.svg) no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
+    filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
+    height: 200px;
 }
 
 #fp-nav ul li a span {
@@ -19,8 +22,7 @@ p {
 }
 
 #section0 {
-    background-image: url(img/moj-beach-mob.jpg);
-    max-width: 100%;
-    background-size: cover;
+    background-image: url(img/placeholder-background.svg);
+    background-size: 7000px;
     }
 

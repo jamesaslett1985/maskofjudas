@@ -8,9 +8,10 @@
     background-position: center;
     width: 100%;
     -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
-    filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
-    height: 200px;
-}
+    filter: hue-rotate(40deg) saturate(0.5) brightness(0%) saturate(4); 
+    height: 100%;
+
+    }
 
 #fp-nav ul li a span {
     background: #fff;
@@ -24,5 +25,10 @@ p {
 #section0 {
     background-image: url(img/placeholder-background.svg);
     background-size: 7000px;
-    }
+}
 
+.logo-wrapper {
+    height: 100%;
+    padding: 0 36px;
+
+}

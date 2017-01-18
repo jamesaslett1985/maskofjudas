@@ -14,7 +14,7 @@
 #button {
 	border: none;
 	color: white;
-	padding-left: 15px;
+	padding-left: 8px;
 	text-align: left;
 	text-decoration: none;
 	display: block;
@@ -125,9 +125,9 @@ ul.topnav.responsive li a {
 }
 
 .mojNavtext {
-	font-size: 22px;
+	font-size: 30px;
 	position: absolute;
-	top: 6;
+	top: 2;
 	left: 8;
 	color: #fff;
 	text-decoration: none;

@@ -29,6 +29,11 @@ p {
 
 .logo-wrapper {
     height: 100%;
-    padding: 0 36px;
+    padding: 0 35px;
+}
+
+#fp-nav {
+    display: none;
+}
 
 }

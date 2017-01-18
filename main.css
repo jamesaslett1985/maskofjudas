@@ -23,8 +23,41 @@ p {
 }
 
 #section0 {
-    background-image: url(img/placeholder-background.svg);
+    background-image: url(img/placeholder-background1.svg);
     background-size: 7000px;
+}
+
+#section1 {
+    background-image: url(img/placeholder-background2.svg);
+    background-size: 3000px;
+}
+
+#section2 {
+    background-image: url(img/placeholder-background3.svg);
+    background-size: 7000px;
+    filter: hue-rotate(100deg);
+}
+
+#section3 {
+    background-image: url(img/placeholder-background4.svg);
+    background-size: 3000px;
+}
+
+#section4 {
+    background-image: url(img/placeholder-background5.svg);
+    background-size: 19999px;
+}
+
+#section5 {
+    background-image: url(img/placeholder-background6.svg);
+    background-size: 7000px;
+    filter: hue-rotate(180deg);
+}
+
+#section6 {
+    background-image: url(img/placeholder-background7.svg);
+    background-size: 5000px;
+    filter: brightness(30%);
 }
 
 .logo-wrapper {
@@ -36,4 +69,24 @@ p {
     display: none;
 }
 
+.bandcampEmbed {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: 0;  
+    height: 42px;
+    padding: 4px;
+}
+
+.youtubeEmbed {
+    width: 560px;
+    height: 315px;
+}
+
+.fp-controlArrow.fp-next {
+    right: 50px;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
 }

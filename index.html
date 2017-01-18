@@ -45,25 +45,41 @@
 <div class="moj-logo" alt="moj logo"></div></div>
             </div>
             <!--MUSIC SECTION -->
-            <div class="section">Music</div>
+            <div class="section" id="section1">
+
+<iframe class="bandcampEmbed" src="https://bandcamp.com/EmbeddedPlayer/track=1490871783/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="http://maskofjudas.bandcamp.com/track/gravity">Gravity</a></iframe>
+
+<iframe class="bandcampEmbed" src="https://bandcamp.com/EmbeddedPlayer/album=4048360549/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="http://maskofjudas.bandcamp.com/track/album/axis">Axis</a></iframe>
+
+<iframe class="bandcampEmbed" src="https://bandcamp.com/EmbeddedPlayer/track=2598379332/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="http://maskofjudas.bandcamp.com/track/crown-the-sun-single">Crown the Sun</a></iframe>
+
+                
+            </div>
             <!--GALLERY SECTION -->
-            <div class="section">
+            <div class="section" id="section2">
                 <div class="slide">Photo Slide 1</div>
                 <div class="slide">Photo Slide 2</div>
                 <div class="slide">Photo Slide 3</div>
             </div>
             <!--VIDEO SECTION -->
-            <div class="section">
-                <div class="slide">Video 1</div>
+            <div class="section" id="section3">
+                <div class="videoContainer">
+                <div class="slide">
+
+<iframe class="youtubeEmbed" src="https://www.youtube.com/embed/5Q2Lw3Nwa08?rel=0" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+                </div>
                 <div class="slide">Video 2</div>
                 <div class="slide">Video 3</div>
             </div>
             <<!--GIGS SECTION -->
-                <div class="section">Gigs</div>
+                <div class="section" id="section4">Gigs</div>
                 <!--MERCH SECTION -->
-                <div class="section">Merch</div>
+                <div class="section" id="section5">Merch</div>
                 <!--CONTACT SECTION -->
-                <div class="section">Contact</div>
+                <div class="section" id="section6">Contact</div>
                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
                 <script src="vendors/jquery.easings.min.js"></script>
                 <script type="text/javascript" src="jquery.fullPage.min.js"></script>
@@ -80,7 +96,9 @@
                             ],
                             navigation: true,
                             navigationPosition: 'right',
-                            navigationTooltips: ['HOME', 'MUSIC', 'GALLERY', 'VIDEO', 'GIGS', 'MERCH', 'CONTACT']
+                            navigationTooltips: ['HOME', 'MUSIC', 'GALLERY', 'VIDEO', 'GIGS', 'MERCH', 'CONTACT'],
+                            scrollingSpeed: 300,
+                            
                         });
                     });
                 </script>

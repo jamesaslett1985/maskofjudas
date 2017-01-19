@@ -16,5 +16,13 @@ PAGE: INDEX
 width: 40%;
 }
 
+.fp-controlArrow.fp-next {
+    right: 50px;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
+}
+
 }
 

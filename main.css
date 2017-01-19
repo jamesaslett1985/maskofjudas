@@ -84,9 +84,9 @@ p {
 }
 
 .fp-controlArrow.fp-next {
-    right: 50px;
+    border-width: 38.5px 0 38.5px 34px;
 }
 
 .fp-controlArrow.fp-prev {
-    left: 50px;
+    border-width: 38.5px 0 38.5px 34px;
 }

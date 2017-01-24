@@ -35,7 +35,7 @@ p {
 #section2 {
     background-image: url(img/placeholder-background3.svg);
     background-size: 7000px;
-    filter: hue-rotate(100deg);
+
 }
 
 #section3 {
@@ -51,13 +51,11 @@ p {
 #section5 {
     background-image: url(img/placeholder-background6.svg);
     background-size: 7000px;
-    filter: hue-rotate(180deg);
 }
 
 #section6 {
     background-image: url(img/placeholder-background7.svg);
     background-size: 5000px;
-    filter: brightness(30%);
 }
 
 .logo-wrapper {
@@ -83,10 +81,8 @@ p {
     height: 315px;
 }
 
-.fp-controlArrow.fp-next {
-    border-width: 38.5px 0 38.5px 34px;
-}
+.img-slides {
+    width: 50%;
+ 
 
-.fp-controlArrow.fp-prev {
-    border-width: 38.5px 0 38.5px 34px;
 }

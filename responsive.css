@@ -3,7 +3,7 @@
 PAGE: INDEX
 *********************************************/
 
-.moj-logo {
+.logo {
     max-width: 50%;
     margin: 0 auto;
     }
@@ -12,12 +12,13 @@ PAGE: INDEX
     display: block;
 }
 
-.bandcampEmbed {
+.bc-embed {
 width: 40%;
 }
 
 .fp-controlArrow.fp-next {
     right: 50px;
+    
 }
 
 .fp-controlArrow.fp-prev {

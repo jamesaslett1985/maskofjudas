@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.moj-logo {
+.logo {
     background: url(img/moj-logo.svg) no-repeat;
     background-position: center;
     width: 100%;
@@ -67,7 +67,7 @@ p {
     display: none;
 }
 
-.bandcampEmbed {
+.bc-embed {
     display: block;
     margin: auto;
     width: 90%;
@@ -76,7 +76,7 @@ p {
     padding: 4px;
 }
 
-.youtubeEmbed {
+.yt-embed {
     width: 560px;
     height: 315px;
 }

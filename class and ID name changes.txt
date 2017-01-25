@@ -1,0 +1,7 @@
+#myTopnav - #topnav
+.mojHide - .btn-hide
+.mojNavtext - .nav-text
+.moj-logo - .logo
+.bandcampEmbed - .bc-embed
+.videoContainer - .vid-container
+.youtubeEmbed - .yt-embed

@@ -124,7 +124,7 @@ ul.topnav.responsive li a {
 	padding: 0;
 }
 
-.mojNavtext {
+.nav-text {
 	font-size: 30px;
 	position: absolute;
 	top: 2;
@@ -132,26 +132,13 @@ ul.topnav.responsive li a {
 	color: #fff;
 	text-decoration: none;
 }
-.mojHide {
+.btn-hide {
   display: none !important;
 }
 
 .responsive .hamburger-box {
 	width: 80px;
 }
-
-/*
-#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
-    height: 15px;
-    width: 15px;
-    margin: -6px 0 0 -7px;
-}
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    height: 6px;
-    width: 6px;
-}
-*/
 
 /*RESPONSIVE*/
 
@@ -187,11 +174,11 @@ ul.topnav.responsive li a {
 		height: 33px;
 		background: none;
 	}
-	.mojNavtext {
+	.nav-text {
 	display: none;
 }
 
-.mojHide {
+.btn-hide {
   display: block !important;
 }
 

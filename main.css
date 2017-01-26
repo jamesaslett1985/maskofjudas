@@ -1,3 +1,7 @@
+body {
+	font-family: 'Reem Kufi', sans-serif;
+}
+
 .section {
     font-size: 4em;
     text-align: center;
@@ -83,6 +87,19 @@ p {
 
 .img-slides {
     width: 50%;
- 
+    border-radius: 5px;
 
+}
+
+#section4 h3 {
+    font-size: 30px;
+}
+
+#section4 li {
+    font-size: 25px;
+    border-bottom: 2px solid #000000;
+}
+
+.list-heading {
+    margin: 0;
 }

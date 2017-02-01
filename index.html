@@ -105,6 +105,19 @@
             <div class="section" id="section4">
                 <div class="gig-wrapper">
 
+
+<script>
+    var gigs = '{"date": "FEBRUARY 1ST","VENUE": "BRIGHTON"}';
+
+    var json = JSON.parse(gigs);
+
+    alert(json["date"]);
+
+    document.getElementById('section4').innerHTML = gigs;
+
+</script>
+
+
                 <!--gig hardcoded HTML to be converted into json. Left here for reference
                 <h3 class="list-heading">2017</h3>
                 <ul>
@@ -126,6 +139,7 @@
                 <script type="text/javascript" src="jquery.fullPage.min.js"></script>
                 <script src="js/jquery.ba-outside-events.min.js"></script>
                 <script src="js/navscripts.js"></script>
+                <script src="js/gigdata.js"></script>
                 <script type="text/javascript">
                     $(document).ready(function () {
                         $('#fullpage').fullpage({

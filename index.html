@@ -105,17 +105,41 @@
             <div class="section" id="section4">
                 <div class="gig-wrapper">
 
+ <script>
 
-<script>
-    var gigs = '{"date": "FEBRUARY 1ST","VENUE": "BRIGHTON"}';
+$.getJSON( "data/gigs.json", function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
 
-    var json = JSON.parse(gigs);
+ 
+ /*
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        json = JSON.parse(this.responseText);
+        document.getElementById("section4").innerHTML = json.gig;
+    }
+};
+xmlhttp.open("GET", "data/gigs.json", true);
+xmlhttp.send();
 
-    alert(json["date"]);
+*/
 
-    document.getElementById('section4').innerHTML = gigs;
+    </script>
 
-</script>
+<!--    
+      var gigs = '{"date": "FEBRUARY 1ST","VENUE": "BRIGHTON"}';
+      var json = JSON.parse(gigs);
+  	  document.getElementById('section4').innerHTML = json.date;
+    
 
 
                 <!--gig hardcoded HTML to be converted into json. Left here for reference

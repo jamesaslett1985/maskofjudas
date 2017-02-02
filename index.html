@@ -103,13 +103,8 @@
             </div>
             <!--GIGS SECTION -->
             <div class="section" id="section4">
-                <div class="gig-wrapper">
+                <div class="gig-wrapper" id="gig-wrapper">
 
-<!--    
-      var gigs = '{"date": "FEBRUARY 1ST","VENUE": "BRIGHTON"}';
-      var json = JSON.parse(gigs);
-  	  document.getElementById('section4').innerHTML = json.date;
-    
 
 
                 <!--gig hardcoded HTML to be converted into json. Left here for reference
@@ -151,38 +146,16 @@
                             scrollingSpeed: 300,
                         });
                     });
-    
-                </script>
 
-                
- <script>
+                     $.getJSON('data/gigs.json', function(data) {
+        var output="<ul>";
+        for (var i in data.gigs) {
+            output+="<li>" + data.gigs[i].gig + "</li>";
+        }
 
-$.getJSON( "data/gigs.json", function( data ) {
-  var items = [];
-  $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
+        output+="</ul>";
+        document.getElementById("gig-wrapper").innerHTML=output;
   });
- 
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "#section4" );
-});
-
- 
- /*
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        json = JSON.parse(this.responseText);
-        document.getElementById("section4").innerHTML = json.gig;
-    }
-};
-xmlhttp.open("GET", "data/gigs.json", true);
-xmlhttp.send();
-
-*/
-
-    </script>
-
+                </script>
     </body>
+

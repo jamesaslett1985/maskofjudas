@@ -147,7 +147,7 @@
                         });
                     });
 
-                     $.getJSON('data/gigs.json', function(data) {
+    /*               $.getJSON('data/gigs.json', function(data) {
         var output="<ul>";
         for (var i in data.gigs) {
             output+="<li>" + data.gigs[i].gig + "</li>";
@@ -155,7 +155,26 @@
 
         output+="</ul>";
         document.getElementById("gig-wrapper").innerHTML=output;
-  });
+
+    */
+
+
+ // Make sure it is public or set to Anyone with link can view 
+var url = "https://drive.google.com/uc?export=download&id=0B7XZZNKk742ETFdsSmx0d2d1YjA";
+
+
+  $.getJSON(url, function(data) {
+        var output="<ul>";
+        for (var i in data.gigs) {
+            output+="<li>" + data.gigs[i].gig + "</li>";
+        }
+
+        output+="</ul>";
+        document.getElementById("gig-wrapper").innerHTML=output;
+
+ });
+
                 </script>
     </body>
+
 

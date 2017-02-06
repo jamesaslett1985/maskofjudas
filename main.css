@@ -37,7 +37,7 @@ p {
 }
 
 #section2 {
-    background-image: url(img/placeholder-background3.svg);
+    background-image: url(img/placeholder-background6.svg);
     background-size: 7000px;
 
 }
@@ -86,9 +86,8 @@ p {
 }
 
 .img-slides {
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
-
 }
 
 #section4 h3 {
@@ -116,4 +115,28 @@ p {
 
 .cap-text {
     font-size: 0.3em;
+}
+
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 3px solid #24221F;
+}
+
+.fp-controlArrow {
+    top: 85%;
+}
+
+.fp-controlArrow.fp-next {
+    border-width: 15.5px 0 15.5px 23px;
+}
+
+.fp-controlArrow.fp-prev {
+    border-width: 15.5px 23px 15.5px 0;
 }

@@ -1,0 +1,9 @@
+Highlight current menu items
+https://ayanize.com/snippets/how-to-highlight-current-menu-items-on-a-one-page-site-in-divi/
+
+Social Media links
+
+Get Bandcamp/Youtube to only load on request
+
+JSON gigs - get it working as CMS somehow
+

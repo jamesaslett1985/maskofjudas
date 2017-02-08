@@ -128,7 +128,6 @@
                 <script type="text/javascript" src="jquery.fullPage.min.js"></script>
                 <script src="js/jquery.ba-outside-events.min.js"></script>
                 <script src="js/navscripts.js"></script>
-                <script src="js/gigdata.js"></script>
                 <script type="text/javascript">
                     $(document).ready(function () {
                         $('#fullpage').fullpage({
@@ -167,7 +166,7 @@ https://drive.google.com/file/d/0B7XZZNKk742ETFdsSmx0d2d1YjA/view?usp=sharing
 
 
 
-  $.getJSON(url, function(data) {
+  $.getJSON("https://api.myjson.com/bins/1geo2t", function(data) {
         var output="<ul>";
         for (var i in data.gigs) {
             output+="<li>" + data.gigs[i].gig + "</li>";
@@ -177,8 +176,8 @@ https://drive.google.com/file/d/0B7XZZNKk742ETFdsSmx0d2d1YjA/view?usp=sharing
         document.getElementById("gig-wrapper").innerHTML=output;
 
  });
-
                 </script>
+
     </body>
 
 

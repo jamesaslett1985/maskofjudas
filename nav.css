@@ -163,9 +163,21 @@ ul.topnav.responsive li a {
 		margin: 0 35px;
 	}
 	#button:active {
-		color: #ffbd83;
 		background-color: transparent;
+		color: red!important;
 	}
+
+}
+#button .active a:after{
+	content: '';
+	border-bottom: 2px solid #c3095f;
+	display: block;
+	width: 100%;
+	position: relative;
+	top: 8px;
+}
+
+
 	.hamburger {
 		display: none;
 	}

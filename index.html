@@ -143,6 +143,15 @@
                                 'CONTACT'
                             ],
                             scrollingSpeed: 300,
+
+                            afterLoad: function(anchorLink){
+                                var loadedSection = $(this);
+
+                                //using anchorLink
+                                if(anchorLink == 'MUSIC'){
+                                    console.log("Section 2 ended loading");
+            }
+        }
                         });
                     });
 

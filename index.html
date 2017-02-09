@@ -128,6 +128,7 @@
                 <script type="text/javascript" src="jquery.fullPage.min.js"></script>
                 <script src="js/jquery.ba-outside-events.min.js"></script>
                 <script src="js/navscripts.js"></script>
+                <script src="js/gigdata.js"></script>
                 <script type="text/javascript">
                     $(document).ready(function () {
                         $('#fullpage').fullpage({
@@ -143,39 +144,10 @@
                                 'CONTACT'
                             ],
                             scrollingSpeed: 300,
-
-                            afterLoad: function(anchorLink){
-                                var loadedSection = $(this);
-
-                                //using anchorLink
-                                if(anchorLink == 'MUSIC'){
-                                    console.log("Section 2 ended loading");
-            }
-        }
                         });
                     });
 
-    /*               $.getJSON('data/gigs.json', function(data) {
-        var output="<ul>";
-        for (var i in data.gigs) {
-            output+="<li>" + data.gigs[i].gig + "</li>";
-        }
-
-        output+="</ul>";
-        document.getElementById("gig-wrapper").innerHTML=output;
-
-    */
-
-
- // Make sure it is public or set to Anyone with link can view 
-var url = "https://drive.google.com/uc?export=download&id=0B7XZZNKk742ETFdsSmx0d2d1YjA";
-
-
-https://drive.google.com/file/d/0B7XZZNKk742ETFdsSmx0d2d1YjA/view?usp=sharing
-
-
-
-  $.getJSON("https://api.myjson.com/bins/1geo2t", function(data) {
+$.getJSON("https://api.myjson.com/bins/1geo2t", function(data) {
         var output="<ul>";
         for (var i in data.gigs) {
             output+="<li>" + data.gigs[i].gig + "</li>";
@@ -185,8 +157,8 @@ https://drive.google.com/file/d/0B7XZZNKk742ETFdsSmx0d2d1YjA/view?usp=sharing
         document.getElementById("gig-wrapper").innerHTML=output;
 
  });
-                </script>
 
+                </script>
     </body>
 
 

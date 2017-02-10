@@ -45,15 +45,30 @@ $(document).on('click', function (event) {
     }
 })
 
-$(function () {
+/*
+$(function(){
     // this will get the full URL at the address bar
     var url = window.location.href; 
+
     // passes on every "a" tag 
-    $("#header a").each(function() {
-    // checks if its the same on the address bar
+    $("#sub-header a").each(function() {
+            // checks if its the same on the address bar
         if(url == (this.href)) { 
-            $(this).closest(".btn").addClass("activenav");
+            $(this).closest("li").addClass("active");
         }
     });
 });
+/*
 
+
+
+/*GET ABOVE CODE INTO THIS FUNCTION*/
+function afterLoadCallback(anchorLink, index){
+
+    if(url == (this.href))
+    $('.btn').addClass('activenav');
+}
+
+function onLeaveCallback(anchorLink, index){
+    $('.btn').removeClass('activenav');
+}

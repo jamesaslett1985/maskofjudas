@@ -52,7 +52,7 @@ $(function () {
     $("#header a").each(function() {
     // checks if its the same on the address bar
         if(url == (this.href)) { 
-            $(this).closest("#button").addClass("activenav");
+            $(this).closest(".btn").addClass("activenav");
         }
     });
 });

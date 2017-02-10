@@ -23,7 +23,7 @@
 	padding: 11px 1px 11px 8px;
 }
 
-#button:active {
+.btn:active {
 	color: #000;
 	background-color: #424242;
 }
@@ -154,13 +154,13 @@ ul.topnav.responsive li {
 		margin-top: 5px;
 		padding: 0;
 	}
-	#button {
+	.btn {
 		display: inline-block;
 		text-align: center;
 		padding: 0;
 		margin: 0 35px;
 	}
-	#button:active {
+	.btn:active {
 		color: #ffbd83;
 		background-color: transparent;
 	}
@@ -181,7 +181,7 @@ ul.topnav.responsive li {
 
 
 	@media screen and (min-width: 760px) and (max-width: 1025px) {
-		#button {
+		.btn {
 			margin: 0 15px;
 		}
 	}

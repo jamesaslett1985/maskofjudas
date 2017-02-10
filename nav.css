@@ -10,15 +10,17 @@
 	padding: 0;
 }
 
-#button {
+.btn {
 	border: none;
-	color: white;
-	padding-left: 8px;
+	color: #fff;
 	text-align: left;
 	text-decoration: none;
 	display: block;
 	font-size: 18px;
 	line-height: 5px;
+	position: relative;
+	margin-top: 10px;
+	padding: 11px 1px 11px 8px;
 }
 
 #button:active {
@@ -62,14 +64,6 @@ ul.topnav.responsive li.icon {
 ul.topnav.responsive li {
 	float: none;
 	display: inline;
-}
-
-ul.topnav.responsive li a {
-	position: relative;
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	padding: 11px 1px;
 }
 
 .topnav.responsive {
@@ -137,6 +131,10 @@ ul.topnav.responsive li a {
 
 .responsive .hamburger-box {
 	width: 80px;
+}
+
+.activenav { 
+	color: #000;
 }
 
 /*RESPONSIVE*/

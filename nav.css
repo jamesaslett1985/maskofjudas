@@ -62,7 +62,6 @@ ul.topnav.responsive li.icon {
 }
 
 ul.topnav.responsive li {
-	float: none;
 	display: inline;
 }
 
@@ -173,6 +172,7 @@ ul.topnav.responsive li {
 	}
 	.nav-text {
 	display: none;
+}
 }
 
 .btn-hide {

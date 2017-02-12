@@ -45,30 +45,17 @@ $(document).on('click', function (event) {
     }
 })
 
-/*
-$(function(){
-    // this will get the full URL at the address bar
-    var url = window.location.href; 
+/*Hightlight current slide in nav*/
+function onLeaveCallback(anchorLink, index) {
+    var url = window.location.href;
 
     // passes on every "a" tag 
-    $("#sub-header a").each(function() {
-            // checks if its the same on the address bar
-        if(url == (this.href)) { 
-            $(this).closest("li").addClass("active");
+    $(".btn").each(function () {
+        // checks if its the same on the address bar
+        if (url == (this.href)) {
+            $(this).closest(".btn").addClass("activenav");
+        } else {
+            $(this).closest(".btn").removeClass("activenav");
         }
     });
-});
-/*
-
-
-
-/*GET ABOVE CODE INTO THIS FUNCTION*/
-function afterLoadCallback(anchorLink, index){
-
-    if(url == (this.href))
-    $('.btn').addClass('activenav');
-}
-
-function onLeaveCallback(anchorLink, index){
-    $('.btn').removeClass('activenav');
-}
+};

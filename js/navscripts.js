@@ -46,16 +46,7 @@ $(document).on('click', function (event) {
 })
 
 /*Hightlight current slide in nav*/
-function onLeaveCallback(anchorLink, index) {
-    var url = window.location.href;
-
-    // passes on every "a" tag 
-    $(".btn").each(function () {
-        // checks if its the same on the address bar
-        if (url == (this.href)) {
-            $(this).closest(".btn").addClass("activenav");
-        } else {
-            $(this).closest(".btn").removeClass("activenav");
-        }
-    });
+function afterLoadCallback(anchorLink) {
+    $("a", "#topnav").removeClass("activenav");
+    $("a[href=#"+anchorLink+"]", "#topnav").addClass("activenav");
 };

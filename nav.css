@@ -125,7 +125,7 @@ ul.topnav.responsive li {
 	text-decoration: none;
 }
 .btn-hide {
-  display: none !important;
+  display: none;
 }
 
 .responsive .hamburger-box {
@@ -133,7 +133,7 @@ ul.topnav.responsive li {
 }
 
 .activenav { 
-	color: #000;
+	color: #7c00ff;
 }
 
 /*RESPONSIVE*/
@@ -173,12 +173,11 @@ ul.topnav.responsive li {
 	.nav-text {
 	display: none;
 }
-}
 
 .btn-hide {
-  display: block !important;
+  display: block;
 }
-
+}
 
 	@media screen and (min-width: 760px) and (max-width: 1025px) {
 		.btn {

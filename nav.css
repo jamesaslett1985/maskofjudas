@@ -146,23 +146,24 @@ ul.topnav.responsive li {
 }
 
 /*Move lava nav on hover*/
-li a:hover .lava-nav {
+#topnav li:hover .lava-nav {
      background: #fff;
 }
 
-li a:nth-child(1):hover ~ .lava-nav {
+
+#topnav li:nth-child(1):hover ~ .lava-nav {
   left: 15%; }
-li a:nth-child(2):hover ~ .lava-nav {
+#topnav li:nth-child(2):hover ~ .lava-nav {
   left: 20%; }
-li a:nth-child(3):hover ~ .lava-nav {
+#topnav li:nth-child(3):hover ~ .lava-nav {
   left: 25%; }
-li a:nth-child(4):hover ~ .lava-nav {
+#topnav li:nth-child(4):hover ~ .lava-nav {
   left: 30%; }
-li a:nth-child(5):hover ~ .lava-nav {
+#topnav li:nth-child(5):hover ~ .lava-nav {
   left: 35%; }
-li a:nth-child(6):hover ~ .lava-nav {
+#topnav li:nth-child(6):hover ~ .lava-nav {
   left: 40%; }
-li a:nth-child(7):hover ~ .lava-nav {
+#topnav li:nth-child(7):hover ~ .lava-nav {
   left: 45%; }
 
 /*RESPONSIVE*/

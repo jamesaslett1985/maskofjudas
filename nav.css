@@ -138,9 +138,9 @@ ul.topnav.responsive li {
 
 .lava-nav {
   position: absolute;
-  left: 8.6%;
+  left: 46.4%;
   transition: 0.7s ease-in-out; 
-  width: 80px;
+  width: 125px;
   height: 2px;
   background: #000;
 }
@@ -150,21 +150,19 @@ ul.topnav.responsive li {
      background: #fff;
 }
 
-
 #topnav li:nth-child(1):hover ~ .lava-nav {
-  left: 15%; }
+  left: 21.7%;
+  width: 50px; }
 #topnav li:nth-child(2):hover ~ .lava-nav {
-  left: 20%; }
-#topnav li:nth-child(3):hover ~ .lava-nav {
-  left: 25%; }
-#topnav li:nth-child(4):hover ~ .lava-nav {
   left: 30%; }
-#topnav li:nth-child(5):hover ~ .lava-nav {
-  left: 35%; }
-#topnav li:nth-child(6):hover ~ .lava-nav {
+#topnav li:nth-child(3):hover ~ .lava-nav {
   left: 40%; }
+#topnav li:nth-child(5):hover ~ .lava-nav {
+  left: 55%; }
+#topnav li:nth-child(6):hover ~ .lava-nav {
+  left: 65%; }
 #topnav li:nth-child(7):hover ~ .lava-nav {
-  left: 45%; }
+  left: 75%; }
 
 /*RESPONSIVE*/
 

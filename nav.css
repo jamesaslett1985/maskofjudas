@@ -180,6 +180,8 @@ ul.topnav.responsive li {
 	ul {
 		margin-top: 5px;
 		padding: 0;
+		position: relative;
+		width: 100%;
 	}
 	.btn {
 		display: inline-block;

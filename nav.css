@@ -133,8 +133,37 @@ ul.topnav.responsive li {
 }
 
 .activenav { 
-	color: #7c00ff;
+	color: #31ff00;
 }
+
+.lava-nav {
+  position: absolute;
+  left: 8.6%;
+  transition: 0.7s ease-in-out; 
+  width: 80px;
+  height: 2px;
+  background: #000;
+}
+
+/*Move lava nav on hover*/
+li a:hover .lava-nav {
+     background: #fff;
+}
+
+li a:nth-child(1):hover ~ .lava-nav {
+  left: 15%; }
+li a:nth-child(2):hover ~ .lava-nav {
+  left: 20%; }
+li a:nth-child(3):hover ~ .lava-nav {
+  left: 25%; }
+li a:nth-child(4):hover ~ .lava-nav {
+  left: 30%; }
+li a:nth-child(5):hover ~ .lava-nav {
+  left: 35%; }
+li a:nth-child(6):hover ~ .lava-nav {
+  left: 40%; }
+li a:nth-child(7):hover ~ .lava-nav {
+  left: 45%; }
 
 /*RESPONSIVE*/
 

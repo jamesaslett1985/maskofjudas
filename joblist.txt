@@ -7,3 +7,38 @@ Get Bandcamp/Youtube to only load on request
 
 JSON gigs - get it working as CMS somehow
 
+ul {
+	position: relative;
+	width: 100%;
+}
+
+
+
+ANDY COMMENTS ON LAVA
+
+that left position the little hover guy is using is in relation to the very left of the screen
+in order to position something absolutely, you gotta have a parent element set to 'relative'
+chuck width on your UL, set it positioned relative
+and then the little hover effect guy will refer to that fixed-width UL element to place the :after absolutely?
+
+your UL is currently 100% wide
+so that left position added to the hover guy is using the very edge of the UL, ie, the very left of the screen to position it
+and as its changing width as you move the browser, those hard pixel values dont match up to your percentage width
+H
+you can make it as wide you non-mobile breakpoint
+just margin:0 auto it to centre the UL, then the hover will have a solid number to work with
+that way, it wont break if you add more items
+
+you could add the current section as a class to your UL
+and use that class in CSS to position the left of the hover
+
+
+generally best to never do CSS in JS if you can avoid it
+the only way to override it is !Important
+then you've burned all your  bridges
+plus its shitty to update etc
+
+that way, you can easily expand the styles,
+hell, place it on the body tag or something, so you can target any element at any 'active' section state
+
+

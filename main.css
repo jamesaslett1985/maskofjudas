@@ -1,142 +1,113 @@
 body {
-	font-family: 'Reem Kufi', sans-serif;
-}
+  font-family: 'Reem Kufi', sans-serif; }
 
 .section {
-    font-size: 4em;
-    text-align: center;
-}
+  font-size: 4em;
+  text-align: center; }
 
 .logo {
-    background: url(img/moj-logo.svg) no-repeat;
-    background-position: center;
-    width: 100%;
-    -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
-    filter: hue-rotate(40deg) saturate(0.5) brightness(0%) saturate(4); 
-    height: 100%;
-
-    }
+  background: url(img/moj-logo.svg) no-repeat;
+  background-position: center;
+  width: 100%;
+  -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4);
+  filter: hue-rotate(40deg) saturate(0.5) brightness(0%) saturate(4);
+  height: 100%; }
 
 #fp-nav ul li a span {
-    background: #fff;
-}
+  background: #fff; }
 
 p {
-    color: #fff;
-    font-size: 0.5em;
-}
+  color: #fff;
+  font-size: 0.5em; }
 
 #section0 {
-    background-image: url(img/placeholder-background1.svg);
-    background-size: 7000px;
-}
+  background-image: url(img/placeholder-background1.svg);
+  background-size: 7000px; }
 
 #section1 {
-    background-image: url(img/placeholder-background2.svg);
-    background-size: 3000px;
-}
+  background-image: url(img/placeholder-background2.svg);
+  background-size: 3000px; }
 
 #section2 {
-    background-image: url(img/placeholder-background6.svg);
-    background-size: 7000px;
-
-}
+  background-image: url(img/placeholder-background6.svg);
+  background-size: 7000px; }
 
 #section3 {
-    background-image: url(img/placeholder-background4.svg);
-    background-size: 3000px;
-}
+  background-image: url(img/placeholder-background4.svg);
+  background-size: 3000px; }
 
 #section4 {
-    background-image: url(img/placeholder-background5.svg);
-    background-size: 19999px;
-}
+  background-image: url(img/placeholder-background5.svg);
+  background-size: 19999px; }
 
 #section5 {
-    background-image: url(img/placeholder-background6.svg);
-    background-size: 7000px;
-}
+  background-image: url(img/placeholder-background6.svg);
+  background-size: 7000px; }
 
 #section6 {
-    background-image: url(img/placeholder-background7.svg);
-    background-size: 5000px;
-}
+  background-image: url(img/placeholder-background7.svg);
+  background-size: 5000px; }
 
 .logo-wrapper {
-    height: 100%;
-    padding: 0 35px;
-}
+  height: 100%;
+  padding: 0 35px; }
 
 #fp-nav {
-    display: none;
-}
+  display: none; }
 
 .bc-embed {
-    display: block;
-    margin: auto;
-    width: 90%;
-    border: 0;  
-    height: 42px;
-    padding: 20px;
-}
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: 0;
+  height: 42px;
+  padding: 20px; }
 
 .yt-embed {
-    width: 560px;
-    height: 315px;
-}
+  width: 560px;
+  height: 315px; }
 
 .img-slides {
-    width: 100%;
-    border-radius: 5px;
-}
+  width: 100%;
+  border-radius: 5px; }
 
 #section4 h3 {
-    font-size: 25px;
-}
+  font-size: 25px; }
 
 #section4 li {
-    font-size: 20px;
-    border-bottom: 2px solid #000000;
-}
+  font-size: 20px;
+  border-bottom: 2px solid #000000; }
 
 #section4 ul {
-    padding: 0;
-    margin: 0;
-}
+  padding: 0;
+  margin: 0; }
 
 .list-heading {
-    margin: 0;
-}
+  margin: 0; }
 
 .gig-wrapper {
-    max-width: 90%;
-    margin: 0 auto;
-}
+  max-width: 90%;
+  margin: 0 auto; }
 
 .cap-text {
-    font-size: 0.3em;
-}
+  font-size: 0.3em; }
 
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
-    width: 16px;
-    height: 16px;
-    margin: -8px 0 0 -8px;
-    background: transparent;
-    box-sizing: border-box;
-    border: 3px solid #24221F;
-}
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  background: transparent;
+  box-sizing: border-box;
+  border: 3px solid #24221F; }
 
 .fp-controlArrow {
-    top: 85%;
-}
+  top: 85%; }
 
 .fp-controlArrow.fp-next {
-    border-width: 15.5px 0 15.5px 23px;
-}
+  border-width: 15.5px 0 15.5px 23px; }
 
 .fp-controlArrow.fp-prev {
-    border-width: 15.5px 23px 15.5px 0;
-}
+  border-width: 15.5px 23px 15.5px 0; }

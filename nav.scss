@@ -1,0 +1,225 @@
+#header {
+	position: fixed;
+	height: 42px;
+	display: block;
+	width: 100%;
+	background: #524a45;
+	z-index: 101;
+	text-align: center;
+	color: #f2f2f2;
+	padding: 0;
+}
+
+.btn {
+	border: none;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	line-height: 5px;
+	position: relative;
+	margin-top: 10px;
+	padding: 11px 1px 11px 8px;
+}
+
+.btn:active {
+	color: #000;
+	background-color: #424242;
+}
+/*Hide all nav icons except the hamburger*/
+
+nav li:not(.icon) {
+	display: none;
+}
+/*Positioning for hamburger*/
+
+.icon {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+
+li {
+	list-style: none;
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+ul.topnav.responsive {
+	position: absolute;
+	width: 100%;
+	z-index: 199;
+	margin: 0;
+	padding: 0;
+	top: 42px;
+	height: 225px;
+}
+
+ul.topnav.responsive li.icon {
+	position: absolute;
+	top: -46px;
+	right: 9px;
+}
+
+ul.topnav.responsive li {
+	display: inline;
+}
+
+.topnav.responsive {
+	background-color: #5a5a5a;
+}
+
+.burger {
+	position: absolute;
+	top: 12px;
+	right: -5px;
+	padding: 0;
+	z-index: 200;
+}
+
+.hamburger-inner:before,
+.hamburger-inner,
+.hamburger-inner:after {
+	background-color: #fff;
+	height: 2px;
+}
+
+.hamburger .hamburger-inner:before {
+	width: 10px;
+}
+
+.hamburger .hamburger-inner {
+	width: 20px;
+}
+
+.hamburger .hamburger-inner:after {
+	width: 30px;
+}
+
+.hamburger.is-active .hamburger-inner:before {
+	width: 30px;
+}
+
+.hamburger.is-active .hamburger-inner {
+	width: 30px;
+}
+
+.hamburger.is-active .hamburger-inner:after {
+	width: 30px;
+}
+
+.hamburger-box {
+	height: 20px;
+}
+
+.hamburger {
+	padding: 0;
+}
+
+.nav-text {
+	font-size: 30px;
+	position: absolute;
+	top: 2;
+	left: 8;
+	color: #fff;
+	text-decoration: none;
+}
+.btn-hide {
+  display: none;
+}
+
+.responsive .hamburger-box {
+	width: 80px;
+}
+
+.activenav { 
+	color: #1c3446;
+}
+
+.lava-nav {
+  position: absolute;
+  left: 42%;
+  top: 77%;
+  transition: 0.7s ease-in-out; 
+  width: 125px;
+  height: 2px;
+  background: #fff;
+}
+
+/*Move lava nav on hover*/
+#topnav li:hover .lava-nav {
+     background: #fff;
+}
+
+#topnav li:nth-child(1):hover ~ .lava-nav {
+  left: 11.6%;
+  width: 50px; }
+#topnav li:nth-child(2):hover ~ .lava-nav {
+  left: 20.5%;
+  width: 74px; } 
+#topnav li:nth-child(3):hover ~ .lava-nav {
+  left: 32.5%;
+  width: 50px; } 
+#topnav li:nth-child(5):hover ~ .lava-nav {
+  left: 61%;
+  width: 41px; } 
+#topnav li:nth-child(6):hover ~ .lava-nav {
+  left: 68.3%;
+  width: 59px; } 
+#topnav li:nth-child(7):hover ~ .lava-nav {
+  left: 79%;
+  width: 71px; } 
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 760px) {
+	/*Show all nav icons on wider screens and hide hamburger*/
+	nav li:not(.icon) {
+		display: inline-block;
+	}
+	.icon {
+		display: none;
+	}
+	nav li {
+		float: none;
+	}
+	#topnav {
+		margin-top: 5px;
+		padding: 0;
+		position: relative;
+		width: 760px;
+		margin: 0 auto;
+	}
+	.btn {
+		display: inline-block;
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+		line-height: 30px;
+	}
+	.btn:active {
+		color: #ffbd83;
+		background-color: transparent;
+	}
+	.hamburger {
+		display: none;
+	}
+	#header {
+		height: 33px;
+		background: none;
+	}
+	.nav-text {
+	display: none;
+}
+
+.btn-hide {
+  display: block;
+}
+}
+
+	/*@media screen and (min-width: 760px) and (max-width: 1025px) {
+		.btn {
+			margin: 0 15px;
+		}
+	}
+	*/

@@ -44,9 +44,6 @@
             <div class="section" id="section0">
                 <div class="logo-wrapper">
                     <div class="logo" alt="logo"></div>
-                      <div>
-                        <button id="savemebutton">SAVE ME</button>
-                    </div>
                 </div>
             </div>
             <!--MUSIC SECTION -->
@@ -150,13 +147,10 @@
                             scrollingSpeed: 300,
                             afterLoad: afterLoadCallback,
                         });
-
-                        $("#savemebutton").click(function(){
-                            saveData();
-                        })
                     });
 
-$.getJSON("https://api.myjson.com/bins/1geo2t", function(data) {
+
+$.getJSON("gigs.json", function(data) {
         var output="<ul>";
         for (var i in data.gigs) {
             output+="<li>" + data.gigs[i].gig + "</li>";
@@ -166,6 +160,7 @@ $.getJSON("https://api.myjson.com/bins/1geo2t", function(data) {
         document.getElementById("gig-wrapper").innerHTML=output;
 
  });
+ 
 
                 </script>
     </body>

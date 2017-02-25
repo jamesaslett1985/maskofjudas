@@ -115,7 +115,7 @@ ul.topnav.responsive li {
 
 .lava-nav {
   position: absolute;
-  left: 42%;
+  left: 42.2%;
   top: 77%;
   transition: 0.7s ease-in-out;
   width: 125px;
@@ -127,27 +127,27 @@ ul.topnav.responsive li {
   background: #fff; }
 
 #topnav li:nth-child(1):hover ~ .lava-nav {
-  left: 11.6%;
+  left: 13.4%;
   width: 50px; }
 
 #topnav li:nth-child(2):hover ~ .lava-nav {
-  left: 20.5%;
+  left: 21.7%;
   width: 74px; }
 
 #topnav li:nth-child(3):hover ~ .lava-nav {
-  left: 32.5%;
+  left: 33.5%;
   width: 50px; }
 
 #topnav li:nth-child(5):hover ~ .lava-nav {
-  left: 61%;
+  left: 60.7%;
   width: 41px; }
 
 #topnav li:nth-child(6):hover ~ .lava-nav {
-  left: 68.3%;
+  left: 67.5%;
   width: 59px; }
 
 #topnav li:nth-child(7):hover ~ .lava-nav {
-  left: 79%;
+  left: 77.5%;
   width: 71px; }
 
 /*RESPONSIVE*/
@@ -169,8 +169,8 @@ ul.topnav.responsive li {
     display: inline-block;
     text-align: center;
     padding: 5px;
-    margin: 0;
-    line-height: 30px; }
+    line-height: 30px;
+    margin: 0 -4px 0 0; }
   .btn:active {
     color: #ffbd83;
     background-color: transparent; }

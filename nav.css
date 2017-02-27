@@ -111,16 +111,10 @@ ul.topnav.responsive li {
   width: 80px; }
 
 .activenav {
-  color: red; }
+  color: #000; }
 
 .lava-nav {
-  position: absolute;
-  left: 42.2%;
-  top: 77%;
-  transition: 0.7s ease-in-out;
-  width: 125px;
-  height: 2px;
-  background: #fff; }
+  display: none; }
 
 /*Move lava nav on hover*/
 #topnav li:hover .lava-nav {
@@ -182,7 +176,16 @@ ul.topnav.responsive li {
   .nav-text {
     display: none; }
   .btn-hide {
-    display: block; } }
+    display: block; }
+  .lava-nav {
+    position: absolute;
+    display: block;
+    left: 42.2%;
+    top: 77%;
+    transition: 300ms ease;
+    width: 125px;
+    height: 2px;
+    background: #fff; } }
 
 /*@media screen and (min-width: 760px) and (max-width: 1025px) {
 		.btn {

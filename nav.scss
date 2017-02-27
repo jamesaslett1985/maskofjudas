@@ -27,11 +27,15 @@
 	color: #000;
 	background-color: #424242;
 }
+
+
 /*Hide all nav icons except the hamburger*/
 
 nav li:not(.icon) {
 	display: none;
 }
+
+
 /*Positioning for hamburger*/
 
 .icon {
@@ -43,6 +47,8 @@ nav li:not(.icon) {
 li {
 	list-style: none;
 }
+
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
 ul.topnav.responsive {
@@ -124,51 +130,60 @@ ul.topnav.responsive li {
 	color: #fff;
 	text-decoration: none;
 }
+
 .btn-hide {
-  display: none;
+	display: none;
 }
 
 .responsive .hamburger-box {
 	width: 80px;
 }
 
-.activenav { 
-	color: red;
+.activenav {
+	color: #000;
 }
 
 .lava-nav {
-  position: absolute;
-  left: 42.2%;
-  top: 77%;
-  transition: 0.7s ease-in-out; 
-  width: 125px;
-  height: 2px;
-  background: #fff;
+	display: none;
 }
+
 
 /*Move lava nav on hover*/
+
 #topnav li:hover .lava-nav {
-     background: #fff;
+	background: #fff;
 }
 
-#topnav li:nth-child(1):hover ~ .lava-nav {
-  left: 13.4%;
-  width: 50px; }
-#topnav li:nth-child(2):hover ~ .lava-nav {
-  left: 21.7%;
-  width: 74px; } 
-#topnav li:nth-child(3):hover ~ .lava-nav {
-  left: 33.5%;
-  width: 50px; } 
-#topnav li:nth-child(5):hover ~ .lava-nav {
-  left: 60.7%;
-  width: 41px; } 
-#topnav li:nth-child(6):hover ~ .lava-nav {
-  left: 67.5%;
-  width: 59px; } 
-#topnav li:nth-child(7):hover ~ .lava-nav {
-  left: 77.5%;
-  width: 71px; } 
+#topnav li:nth-child(1):hover~.lava-nav {
+	left: 13.4%;
+	width: 50px;
+}
+
+#topnav li:nth-child(2):hover~.lava-nav {
+	left: 21.7%;
+	width: 74px;
+}
+
+#topnav li:nth-child(3):hover~.lava-nav {
+	left: 33.5%;
+	width: 50px;
+}
+
+#topnav li:nth-child(5):hover~.lava-nav {
+	left: 60.7%;
+	width: 41px;
+}
+
+#topnav li:nth-child(6):hover~.lava-nav {
+	left: 67.5%;
+	width: 59px;
+}
+
+#topnav li:nth-child(7):hover~.lava-nav {
+	left: 77.5%;
+	width: 71px;
+}
+
 
 /*RESPONSIVE*/
 
@@ -209,20 +224,28 @@ ul.topnav.responsive li {
 		background: none;
 	}
 	.nav-text {
-	display: none;
+		display: none;
+	}
+	.btn-hide {
+		display: block;
+}
+.lava-nav {
+	position: absolute;
+	display: block;
+	left: 42.2%;
+	top: 77%;
+	transition: 300ms ease;
+	width: 125px;
+	height: 2px;
+	background: #fff;
 }
 
-.btn-hide {
-  display: block;
-}
 }
 
 
-
-	/*@media screen and (min-width: 760px) and (max-width: 1025px) {
+/*@media screen and (min-width: 760px) and (max-width: 1025px) {
 		.btn {
 			margin: 0 15px;
 		}
 	}
 	*/
-

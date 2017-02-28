@@ -51,6 +51,11 @@ function afterLoadCallback(anchorLink) {
     $("a[href=#"+anchorLink+"]", "#topnav").addClass("activenav");
 };
 
+
+
+
+
+
 /*Add active Lava to .lavanav on hover
 $('.main-nav').hover( function () {
     $('.lava-nav').addClass("activeLava");

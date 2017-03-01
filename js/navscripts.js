@@ -45,23 +45,11 @@ $(document).on('click', function (event) {
     }
 })
 
-/*Highlight current slide in nav*/
+/*Highlight current section text in nav*/
 function afterLoadCallback(anchorLink) {
     $("a", "#topnav").removeClass("activenav");
     $("a[href=#"+anchorLink+"]", "#topnav").addClass("activenav");
 };
 
 
-
-
-
-
-/*Add active Lava to .lavanav on hover
-$('.main-nav').hover( function () {
-    $('.lava-nav').addClass("activeLava");
-}, function () {
-    $('.lava-nav').removeClass("activeLava");
-}
-);
-*/
 

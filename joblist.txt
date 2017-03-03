@@ -5,7 +5,16 @@ Social Media links
 
 Get Bandcamp/Youtube to only load on request
 
-JSON gigs - get it working as CMS somehow
+JSON gigs - get it working as CMS. Jack's thoughts: 
+
+User updates html site, and when they click on SAVE button, you transform that html data into json that you send over ajax to gigsjson.php 
+that will save it into file
+
+divide it into two development steps
+1. send json to php script and make sure it works on main site (with static data)
+2. transform html into json
+
+$.post("gigsjson.php", data) replace that with $.ajax
 
 ul {
 	position: relative;

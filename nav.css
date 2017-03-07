@@ -120,30 +120,6 @@ ul.topnav.responsive li {
 #topnav li:hover .lava-nav {
   background: #fff; }
 
-#topnav li:nth-child(1):hover ~ .lava-nav {
-  left: 13.4%;
-  width: 50px; }
-
-#topnav li:nth-child(2):hover ~ .lava-nav {
-  left: 21.7%;
-  width: 74px; }
-
-#topnav li:nth-child(3):hover ~ .lava-nav {
-  left: 33.5%;
-  width: 50px; }
-
-#topnav li:nth-child(5):hover ~ .lava-nav {
-  left: 60.7%;
-  width: 41px; }
-
-#topnav li:nth-child(6):hover ~ .lava-nav {
-  left: 67.5%;
-  width: 59px; }
-
-#topnav li:nth-child(7):hover ~ .lava-nav {
-  left: 77.5%;
-  width: 71px; }
-
 /*RESPONSIVE*/
 @media screen and (min-width: 760px) {
   /*Show all nav icons on wider screens and hide hamburger*/

@@ -51,5 +51,29 @@ function afterLoadCallback(anchorLink) {
     $("a[href=#"+anchorLink+"]", "#topnav").addClass("activenav");
 };
 
+/*Lavalamp - moves on hover and persists on active selection*/
+function setSlider(element){
+  var data = {
+    left: element.attr("data-left"),
+    width: element.attr("data-width")
+  };
+  $(".lava-nav").css("left", data.left).css("width", data.width);
+}
+
+$("#topnav").on("mouseover","li", function(){
+  var dataElement = $(this).find("a");
+  setSlider(dataElement);
+})
+
+$("#topnav").on("mouseleave", function(){
+  /*console.log("leave")*/
+  var active = $(".activenav").first();
+  setSlider(active);
+})
+
+$("#topnav").on("click", "a", function(){
+  $(".activenav").first().removeClass("activenav");
+  $(this).addClass("activenav")
+})
 
 

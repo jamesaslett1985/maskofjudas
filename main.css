@@ -125,9 +125,44 @@ p {
   text-align: start; }
 
 /*MERCH*/
-.imgTile {
-  width: 25%;
-  padding-bottom: 25%;
-  background: #00F;
+.box {
+  width: 20%;
+  padding-bottom: 20%;
+  position: relative;
+  float: left; }
+
+.boxInner {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  overflow: hidden;
+  font: 10px/13px 'Lucida Sans',sans-serif; }
+
+.boxInner img {
+  width: 100%; }
+
+#wrap {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 90%; }
+
+.boxInner .titleBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: -50px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
   color: #FFF;
-  font-size: 0.3em; }
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+  margin-bottom: 0; }

@@ -10,7 +10,6 @@ function myFunction() {
 }
 
 //Toggle between hamburger/cross icons on click
-
 var $hamburger = $(".hamburger");
 $hamburger.on("click", function (e) {
     $hamburger.toggleClass("is-active");
@@ -49,6 +48,8 @@ $(document).on('click', function (event) {
 function afterLoadCallback(anchorLink) {
     $("a", "#topnav").removeClass("activenav");
     $("a[href=#"+anchorLink+"]", "#topnav").addClass("activenav");
+    var active = $(".activenav").first();
+    setSlider(active);
 };
 
 /*Lavalamp - moves on hover and persists on active selection*/
@@ -75,5 +76,4 @@ $("#topnav").on("click", "a", function(){
   $(".activenav").first().removeClass("activenav");
   $(this).addClass("activenav")
 })
-
 

@@ -146,7 +146,8 @@ p {
 #wrap {
   overflow: hidden;
   margin: 0 auto;
-  max-width: 90%; }
+  max-width: 90%;
+  padding-top: 52px; }
 
 .boxInner .titleBox {
   position: absolute;

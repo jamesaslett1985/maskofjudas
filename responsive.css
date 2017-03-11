@@ -54,3 +54,7 @@
   .box {
     width: 25%;
     padding-bottom: 25%; } }
+
+@media screen and (min-width: 1051px) {
+  #wrap {
+    padding-top: 0px; } }

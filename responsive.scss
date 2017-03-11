@@ -67,6 +67,7 @@
       padding-bottom: 33.3%;
    }
 }
+   
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Medium desktop: 4 tiles */
    .box {
@@ -75,5 +76,8 @@
    }
 }
 
-
+           @media screen and (min-width: 1051px) {
+           #wrap {
+        padding-top: 0px; }
+       }
 

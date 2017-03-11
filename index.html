@@ -191,6 +191,7 @@
                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
                 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
                 <script src="vendors/jquery.easings.min.js"></script>
+                <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
                 <script type="text/javascript" src="jquery.fullPage.min.js"></script>
                 <script src="js/jquery.ba-outside-events.min.js"></script>
                 <script src="js/navscripts.js"></script>
@@ -210,6 +211,7 @@
                                 'CONTACT'
                             ],
                             scrollingSpeed: 300,
+                            scrollOverflow: true,
                             afterLoad: afterLoadCallback,
                         });
                     });
@@ -225,6 +227,8 @@ $.getJSON("gigs.json", function(data) {
         document.getElementById("gig-wrapper").innerHTML=output;
 
  });
+
+
  
                 </script>
     </body>

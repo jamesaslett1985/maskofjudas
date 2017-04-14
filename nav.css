@@ -111,7 +111,8 @@ ul.topnav.responsive li {
   width: 80px; }
 
 .activenav {
-  color: #000; }
+  color: #ffc876;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
 
 .lava-nav {
   display: none; }

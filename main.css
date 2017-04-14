@@ -22,32 +22,39 @@ p {
   font-size: 0.5em; }
 
 #section0 {
-  background-image: url(img/placeholder-background1.svg);
-  background-size: 7000px; }
+  background-image: url(img/background03.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section1 {
-  background-image: url(img/placeholder-background2.svg);
-  background-size: 3000px; }
+  background-image: url(img/background04.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section2 {
-  background-image: url(img/placeholder-background6.svg);
-  background-size: 7000px; }
+  background-image: url(img/background05.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section3 {
-  background-image: url(img/placeholder-background4.svg);
-  background-size: 3000px; }
+  background-image: url(img/background06.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section4 {
-  background-image: url(img/placeholder-background5.svg);
-  background-size: 19999px; }
+  background-image: url(img/background07.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section5 {
-  background-image: url(img/placeholder-background6.svg);
-  background-size: 7000px; }
+  background-image: url(img/background26.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 #section6 {
-  background-image: url(img/placeholder-background7.svg);
-  background-size: 5000px; }
+  background-image: url(img/background22.jpg);
+  background-repeat: no-repeat;
+  width: 100%; }
 
 .logo-wrapper {
   height: 100%;
@@ -102,7 +109,7 @@ p {
   margin: -8px 0 0 -8px;
   background: transparent;
   box-sizing: border-box;
-  border: 3px solid #24221F; }
+  border: 3px solid #ffc876; }
 
 .fp-controlArrow {
   top: 85%; }

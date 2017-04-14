@@ -28,7 +28,21 @@
   .img-slides {
     width: 60%; }
   .fp-controlArrow {
-    top: 50%; } }
+    top: 50%; }
+  #section0 {
+    background-image: url(img/background01.jpg); }
+  #section1 {
+    background-image: url(img/background24.jpg); }
+  #section2 {
+    background-image: url(img/background11.jpg); }
+  #section3 {
+    background-image: url(img/background28.jpg); }
+  #section4 {
+    background-image: url(img/background18.jpg); }
+  #section5 {
+    background-image: url(img/background02.jpg); }
+  #section6 {
+    background-image: url(img/background20.jpg); } }
 
 /*MERCH*/
 @media only screen and (max-width: 480px) {

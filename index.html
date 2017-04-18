@@ -220,8 +220,8 @@
 
 $.getJSON("gigs.json", function(data) {
         var output="<ul>";
-        for (var i in data.gigs) {
-            output+="<li>" + data.gigs[i].gig + "</li>";
+        for (var i in data) {
+            output+="<li>" + data[i].gig + "</li>";
         }
 
         output+="</ul>";

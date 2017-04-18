@@ -1,11 +1,7 @@
 function saveData(){
 
-$.ajax({
-    type: "POST",
-    url: "gigsjson.php",
-    contentType:"application/json",  
-    data:   
-            {  
+var array = 
+            [{  
                 "gig":"BRIGHTON ELECTRIC 1ST FEBRUARY 2017 7:30PM"
             },
             {  
@@ -22,9 +18,14 @@ $.ajax({
             },
             {  
                 "gig":"BRIGHTON ELECTRIC 6TH FEBRUARY 2017 7:30PM"
-            }
-        
-})
+            }];
+var jsonValue = JSON.stringify(array);
+
+$.ajax({
+    type: "POST",
+    url: "gigsjson.php",
+    contentType:"application/json",
+    data:  jsonValue })
     .done(function(data){
         console.log(data);
     })

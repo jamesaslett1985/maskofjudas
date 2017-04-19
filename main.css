@@ -21,11 +21,11 @@ p {
   color: #fff;
   font-size: 0.5em; }
 
-#section0 {
-  background-image: url(img/background03.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
-
+/*#section0 {
+    background-image: url(img/background03.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}*/
 #section1 {
   background-image: url(img/background04.jpg);
   background-repeat: no-repeat;

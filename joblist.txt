@@ -1,53 +1,17 @@
-Highlight current menu items
-https://ayanize.com/snippets/how-to-highlight-current-menu-items-on-a-one-page-site-in-divi/
+BACKGROUND IMAGES
 
-Social Media links
+have a look into the Picture html5 element
+http://thenewcode.com/944/Responsive-Images-For-Retina-Using-srcset-and-the-x-Designator
 
-Get Bandcamp/Youtube to only load on request
+like, have a div of class 'image' or whatever
+set a width and height, and set your band image as a css background image
+that way, you can change what the image displayed is, based on screen size, or pixel depth
+the picture element does the same thing, its v clever
+it basically has built-in media queries, that can include screen size and/or pixel depth etc
+to show only that image
 
-JSON gigs - get it working as CMS. Jack's thoughts: 
-
-User updates html site, and when they click on SAVE button, you transform that html data into json that you send over ajax to gigsjson.php 
-that will save it into file
-
-divide it into two development steps
-1. send json to php script and make sure it works on main site (with static data)
-2. transform html into json
-
-$.post("gigsjson.php", data) replace that with $.ajax
-
-ul {
-	position: relative;
-	width: 100%;
-}
-
-
-
-ANDY COMMENTS ON LAVA
-
-that left position the little hover guy is using is in relation to the very left of the screen
-in order to position something absolutely, you gotta have a parent element set to 'relative'
-chuck width on your UL, set it positioned relative
-and then the little hover effect guy will refer to that fixed-width UL element to place the :after absolutely?
-
-your UL is currently 100% wide
-so that left position added to the hover guy is using the very edge of the UL, ie, the very left of the screen to position it
-and as its changing width as you move the browser, those hard pixel values dont match up to your percentage width
-H
-you can make it as wide you non-mobile breakpoint
-just margin:0 auto it to centre the UL, then the hover will have a solid number to work with
-that way, it wont break if you add more items
-
-you could add the current section as a class to your UL
-and use that class in CSS to position the left of the hover
-
-
-generally best to never do CSS in JS if you can avoid it
-the only way to override it is !Important
-then you've burned all your  bridges
-plus its shitty to update etc
-
-that way, you can easily expand the styles,
-hell, place it on the body tag or something, so you can target any element at any 'active' section state
-
-
+when i say 'background'
+i mean CSS background images, not neccessary an actual image in the background
+if you've got a square image, you can make a square div, and assign your square img as a background-image in CSS
+and the div can be stacked, stretched, etc in the same way a normal img element could be
+but you get this additional control over what image is loaded when and where

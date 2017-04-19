@@ -29,8 +29,9 @@
     width: 60%; }
   .fp-controlArrow {
     top: 50%; }
-  #section0 {
-    background-image: url(img/background01.jpg); }
+  /*          #section0 {
+    background-image: url(img/background01.jpg);
+}*/
   #section1 {
     background-image: url(img/background24.jpg); }
   #section2 {

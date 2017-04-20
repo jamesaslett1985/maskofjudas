@@ -11,7 +11,9 @@ body {
   background-position: center;
   width: 100%;
   -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4);
-  filter: hue-rotate(40deg) saturate(0.5) brightness(0%) saturate(4);
+  /*changes SVG colour
+    filter: hue-rotate(40deg) saturate(0.5) brightness(0%) saturate(4);
+    */
   height: 100%; }
 
 #fp-nav ul li a span {
@@ -21,40 +23,33 @@ p {
   color: #fff;
   font-size: 0.5em; }
 
-/*#section0 {
-    background-image: url(img/background03.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-}*/
+#section0 {
+  background-image: url(img/background03.jpg);
+  background-size: cover; }
+
 #section1 {
   background-image: url(img/background04.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 #section2 {
   background-image: url(img/background05.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 #section3 {
   background-image: url(img/background06.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 #section4 {
   background-image: url(img/background07.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 #section5 {
   background-image: url(img/background26.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 #section6 {
   background-image: url(img/background22.jpg);
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 .logo-wrapper {
   height: 100%;

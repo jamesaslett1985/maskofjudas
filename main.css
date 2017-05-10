@@ -23,34 +23,13 @@ p {
   color: #fff;
   font-size: 0.5em; }
 
-#section0 {
-  background-image: url(img/background03.jpg);
-  background-size: cover; }
+/*BACKGROUND IMAGES FOR MOBILE 1x*/
+@media only screen and (-webkit-max-device-pixel-ratio: 1.2) {
+  #section0 {
+    background-image: url(img/backgrounds/01-MOB-1x.jpg);
+    background-size: cover; } }
 
-#section1 {
-  background-image: url(img/background04.jpg);
-  background-size: cover; }
-
-#section2 {
-  background-image: url(img/background05.jpg);
-  background-size: cover; }
-
-#section3 {
-  background-image: url(img/background06.jpg);
-  background-size: cover; }
-
-#section4 {
-  background-image: url(img/background07.jpg);
-  background-size: cover; }
-
-#section5 {
-  background-image: url(img/background26.jpg);
-  background-size: cover; }
-
-#section6 {
-  background-image: url(img/background22.jpg);
-  background-size: cover; }
-
+/*END OF BACKGROUND IMAGES FOR MOBILE 1x*/
 .logo-wrapper {
   height: 100%;
   padding: 0 35px; }
@@ -140,7 +119,7 @@ p {
   top: 10px;
   bottom: 10px;
   overflow: hidden;
-  font: 10px/13px 'Lucida Sans',sans-serif; }
+  font: 10px/13px 'Lucida Sans', sans-serif; }
 
 .boxInner img {
   width: 100%; }
@@ -167,5 +146,9 @@ p {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+body.no-touch .boxInner:hover .titleBox,
+body.touch .boxInner.touchFocus .titleBox {
   margin-bottom: 0; }
+
+#fullpage {
+  color: #fff; }

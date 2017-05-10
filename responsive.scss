@@ -43,42 +43,46 @@
          .fp-controlArrow {
                 top: 50%;
           }
+       }
 
-#section0 {
-    background-image: url(img/1x/01-1xTEST.jpg);
-    background-size: cover;
+        /*BACKGROUND IMAGES FOR MOBILE 2x*/
+        @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+	    only screen and (-o-min-device-pixel-ratio: 13/10),
+	    only screen and (min-resolution: 120dpi),
+        screen and (max-width: 759px)
+{
+            #section0 {
+                background-image: url(img/backgrounds/01-MOB-2x.jpg);
+                background-size: cover;
+            }
 }
+            /*END OF BACKGROUND IMAGES FOR MOBILE 2x*/
 
-#section1 {
-    background-image: url(img/background24.jpg);
-    background-size: cover;
-}
+        /*BACKGROUND IMAGES FOR DESKTOP 1x*/
+        @media	only screen and (-webkit-max-device-pixel-ratio: 1.2),
+	    only screen and (-o-min-device-pixel-ratio: 13/10),
+	    only screen and (min-resolution: 120dpi),
+        screen and (min-width: 760px)
+	{
+            #section0 {
+                background-image: url(img/backgrounds/01-DESK-1x.jpg);
+                background-size: cover;
+            }
+	}
+        /*END OF BACKGROUND IMAGES FOR DESKTOP 1x*/
 
-#section2 {
-    background-image: url(img/background11.jpg);
-    background-size: cover;
-}
-
-#section3 {
-    background-image: url(img/background28.jpg);
-    background-size: cover;
-}
-
-#section4 {
-    background-image: url(img/background18.jpg);
-    background-size: cover;
-}
-
-#section5 {
-    background-image: url(img/background02.jpg);
-    background-size: cover;
-}
-
-#section6 {
-    background-image: url(img/background20.jpg);
-    background-size: cover;
-}
-}
+        /*BACKGROUND IMAGES FOR DESKTOP 2x*/
+        @media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+	    only screen and (-o-min-device-pixel-ratio: 13/10),
+	    only screen and (min-resolution: 120dpi),
+        screen and (min-width: 760px)
+	{
+        #section0 {
+            background-image: url(img/backgrounds/01-DESK-2x.jpg);
+            background-size: cover;
+    }
+	}
+     /*END OF BACKGROUND IMAGES FOR DESKTOP 2x*/
 
 /*MERCH*/
 @media only screen and (max-width : 480px) {
@@ -115,38 +119,4 @@
            #wrap {
         padding-top: 0px; }
        }
-   
-/* ---------------------------------------------------------- */
-/*                                                            */
-/* A media query that captures:                               */
-/*                                                            */
-/* - Retina iOS devices                                       */
-/* - Retina Macs running Safari                               */
-/* - High DPI Windows PCs running IE 8 and above              */
-/* - Low DPI Windows PCs running IE, zoomed in                */
-/* - Low DPI Windows PCs and Macs running Firefox, zoomed in  */
-/* - Android hdpi devices and above                           */
-/* - Android tvdpi devices, including Google Nexus 7          */
-/* - Chrome running on high DPI Macs and PCs                  */
-/* - Opera running on high DPI Macs, PCs and mobile devices   */
-/*                                                            */
-/* Please note that that this code assumes you'll swap a      */
-/* 2× version of your images. If you'd like to supply         */
-/* finer increments, other thresholds might be appropriate.   */
-/*                                                            */
-/* A test for CSS pixel densites can be found here:           */
-/* http://bjango.com/articles/min-device-pixel-ratio/         */
-/*                                                            */
-/*                                  @marcedwards from @bjango */
-/*                                                            */
-/* ---------------------------------------------------------- */
-
-@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
-	only screen and (-o-min-device-pixel-ratio: 13/10),
-	only screen and (min-resolution: 120dpi)
-	{
-        #section0 {
-            background-image: url(img/2x/01-2xTEST.jpg);
-            background-size: cover;
-    }
-	}
+   /*END OF MERCH*/

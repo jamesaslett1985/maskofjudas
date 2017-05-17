@@ -23,13 +23,7 @@ p {
   color: #fff;
   font-size: 0.5em; }
 
-/*BACKGROUND IMAGES FOR MOBILE 1x*/
-@media only screen and (-webkit-max-device-pixel-ratio: 1.2) {
-  #section0 {
-    background-image: url(img/backgrounds/01-MOB-1x.jpg);
-    background-size: cover; } }
 
-/*END OF BACKGROUND IMAGES FOR MOBILE 1x*/
 .logo-wrapper {
   height: 100%;
   padding: 0 35px; }

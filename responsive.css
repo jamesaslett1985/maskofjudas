@@ -30,6 +30,13 @@
   .fp-controlArrow {
     top: 50%; } }
 
+/*BACKGROUND IMAGES FOR MOBILE 1x*/
+@media only screen and (-webkit-max-device-pixel-ratio: 3) and (max-width: 320px) {
+  #section0 {
+    background-image: url(img/backgrounds/01-MOB-1x.jpg);
+    background-size: cover; } }
+
+/*END OF BACKGROUND IMAGES FOR MOBILE 1x*/
 /*BACKGROUND IMAGES FOR MOBILE 2x*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 13 / 10), only screen and (min-resolution: 120dpi), screen and (max-width: 759px) {
   #section0 {

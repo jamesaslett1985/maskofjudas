@@ -1,17 +1,10 @@
-BACKGROUND IMAGES
-
-have a look into the Picture html5 element
-http://thenewcode.com/944/Responsive-Images-For-Retina-Using-srcset-and-the-x-Designator
-
-like, have a div of class 'image' or whatever
-set a width and height, and set your band image as a css background image
-that way, you can change what the image displayed is, based on screen size, or pixel depth
-the picture element does the same thing, its v clever
-it basically has built-in media queries, that can include screen size and/or pixel depth etc
-to show only that image
-
-when i say 'background'
-i mean CSS background images, not neccessary an actual image in the background
-if you've got a square image, you can make a square div, and assign your square img as a background-image in CSS
-and the div can be stacked, stretched, etc in the same way a normal img element could be
-but you get this additional control over what image is loaded when and where
+Jo Requirements 18/05/17
+1: Main desktop nav - put MASK OF JUDAS of left, rest of order is correct
+2: Make dot nav a bit bigger
+3: Remove black outline on nav selection text
+4: Snip out bump from 'A' of vector logo
+5: Gallery - same as current but can we have non selected ones showing blurry at the side of the screen? Look for new plugin
+6: Remove photo captions (comment out)
+7: Remove video (comment out) - 'coming soon'
+8: MERCH - Paypal link or similar?
+9: CONTACT - social media - FB/Twitter/Instagram/Bandcamp/email address

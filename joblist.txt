@@ -1,10 +1,10 @@
 Jo Requirements 18/05/17
 1: Main desktop nav - put MASK OF JUDAS of left, rest of order is correct
 2: Make dot nav a bit bigger
-3: Remove black outline on nav selection text
+3: Remove black outline on nav selection text - DONE
 4: Snip out bump from 'A' of vector logo
 5: Gallery - same as current but can we have non selected ones showing blurry at the side of the screen? Look for new plugin
-6: Remove photo captions (comment out)
-7: Remove video (comment out) - 'coming soon'
+6: Remove photo captions (comment out) - DONE
+7: Remove video (comment out) - 'coming soon' - DONE
 8: MERCH - Paypal link or similar?
 9: CONTACT - social media - FB/Twitter/Instagram/Bandcamp/email address

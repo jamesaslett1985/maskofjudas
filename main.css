@@ -72,12 +72,30 @@ p {
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
-  width: 16px;
-  height: 16px;
+  width: 22px;
+  height: 22px;
   margin: -8px 0 0 -8px;
   background: transparent;
   box-sizing: border-box;
   border: 3px solid #ffc876; }
+
+#fp-nav ul li a span{
+  width: 6px;
+  height: 6px;
+
+}
+
+#fp-nav ul li:hover a span {
+  width: 13px;
+  height: 13px;
+
+}
+
+div#fp-nav li {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+}
 
 .fp-controlArrow {
   top: 85%; }

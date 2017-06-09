@@ -164,3 +164,71 @@ body.touch .boxInner.touchFocus .titleBox {
 
 #fullpage {
   color: #fff; }
+
+/*CONTACT > SOCIAL MEDIA ICONS*/
+.socialmediaicons .fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmediaicons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmediaicons .fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmediaicons .fa-instagram {
+ 	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmediaicons .fa-bandcamp {
+  background: #639AA9;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmediaicons .fa-envelope {
+  background: #525252;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+

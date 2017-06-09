@@ -7,4 +7,4 @@ Jo Requirements 18/05/17
 6: Remove photo captions (comment out) - DONE
 7: Remove video (comment out) - 'coming soon' - DONE
 8: MERCH - Paypal link or similar?
-9: CONTACT - social media - FB/Twitter/Instagram/Bandcamp/email address
+9: CONTACT - social media - FB/Twitter/Instagram/Bandcamp/email address - DONE

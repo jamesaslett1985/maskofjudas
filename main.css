@@ -175,6 +175,7 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
 .socialmediaicons .fa-twitter {
@@ -186,6 +187,7 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
 .socialmediaicons .fa-youtube {
@@ -197,6 +199,7 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
 .socialmediaicons .fa-instagram {
@@ -208,6 +211,7 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
 .socialmediaicons .fa-bandcamp {
@@ -219,6 +223,7 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
 .socialmediaicons .fa-envelope {
@@ -230,5 +235,6 @@ body.touch .boxInner.touchFocus .titleBox {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 15px;
 }
 
